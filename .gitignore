@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+fhir-patient-generator
+synthea
+patients
+performance.csv
+connectathon
