@@ -26,7 +26,7 @@ const _ = require('lodash');
     if (!fs.existsSync(p)) {
       fs.mkdirSync(p, { recursive: true });
     }
-    //fpgMeasureDirs.forEach(dir => {
+
     const cthonMeasureString = dir.replace('_', '');
     const cthonMeasureBasePath = path.join(cthonBasePath, cthonMeasureString);
     const cthonBundlePath = path.join(cthonMeasureBasePath, `${cthonMeasureString}-bundle.json`);
