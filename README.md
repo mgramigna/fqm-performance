@@ -16,7 +16,7 @@ npm install
 ```
 
 ```
-cd fqm-execution-serive && npm install
+cd fqm-execution-service && npm install
 npm start
 ```
 
