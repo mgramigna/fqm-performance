@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "> Cloning fqm-execution-service"
+git clone https://github.com/projecttacoma/fqm-execution-service
+
 echo "> Cloning connectathon"
 git clone https://github.com/dbcg/connectathon
 
